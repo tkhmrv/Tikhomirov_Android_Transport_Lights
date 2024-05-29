@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?><!-- dialog_add_transport.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round_corners"
+    android:clipToOutline="true"
+    android:orientation="vertical"
+    android:outlineProvider="background"
+    android:padding="15dp">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Наименование марки транспорта"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButtonMotorcycle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:text="Мотоцикл" />
+
+        <RadioButton
+            android:id="@+id/radioButtonCar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Автомобиль" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/editTextCapacity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Грузоподъемность"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editTextAxleCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Количество осей"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+</LinearLayout>

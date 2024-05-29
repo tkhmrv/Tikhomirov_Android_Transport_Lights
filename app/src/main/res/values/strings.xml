@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Транспорт и светофор</string>
+    <string name="item_selected_message">Вы выбрали элемент: %1$s</string>
+    <string name="transport_info">Название: %1\$s\nТип: %2\$s\nГрузоподъемность: %3\$s\nКоличество осей: %4\$d</string>
+</resources>
